@@ -21,7 +21,7 @@ This project demonstrates how to implement authentication in a React application
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/react-authentication-advanced-css.git
+   git clone https://github.com/Jay-Dalsaniya/auth-protected-routes.git
    ```
 ````
 
