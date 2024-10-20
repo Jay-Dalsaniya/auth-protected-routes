@@ -83,7 +83,3 @@ This project demonstrates how to implement authentication in a React application
 
 ---
 
-### Notes:
-
-- Make sure to update the image paths to the actual screenshots you have in your project directory.
-- This version ensures proper formatting, clarity, and organization. Feel free to customize further as needed!
