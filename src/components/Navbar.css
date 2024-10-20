@@ -1,0 +1,73 @@
+/* src/components/Navbar.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    max-width: 1200px; /* Max width for the navbar */
+    margin: 0 auto; /* Center the navbar */
+  }
+  
+  /* Logo Styles */
+  .logo a {
+    font-size: 1.5rem; /* Logo font size */
+    color: #ffcc00; /* Gold color for logo */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold logo */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    gap: 1.5rem; /* Space between links */
+  }
+  
+  .nav-links li {
+    position: relative; /* Positioning for the hover effect */
+  }
+  
+  .nav-links a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem; /* Padding for clickable area */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transition for color and background */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .nav-links a:hover {
+    color: #333; /* Change link text color on hover */
+    background-color: #ffcc00; /* Highlight background color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .nav-links {
+      flex-direction: column; /* Vertical links */
+      gap: 0.5rem; /* Reduced gap for mobile */
+    }
+  }
+  
