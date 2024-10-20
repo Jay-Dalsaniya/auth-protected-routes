@@ -1,4 +1,3 @@
-
 # React Authentication with Custom Hook and Advanced CSS
 
 This project demonstrates how to implement authentication in a React application using a custom hook. It features advanced CSS styling to enhance the user interface, including a responsive navigation bar and protected routes that ensure only authenticated users can access certain pages.
@@ -23,12 +22,11 @@ This project demonstrates how to implement authentication in a React application
    ```bash
    git clone https://github.com/Jay-Dalsaniya/auth-protected-routes.git
    ```
-````
 
 2. **Navigate into the project directory**
 
    ```bash
-   cd react-authentication-advanced-css
+   cd auth-protected-routes
    ```
 
 3. **Install the required dependencies**
@@ -68,17 +66,24 @@ This project demonstrates how to implement authentication in a React application
 
 ## Screenshots
 
-_User Dashboard_
-![alt text](image-2.png)
-_Login Page_
-![alt text](image-3.png)
-_Dashboard_
-![alt text](image-4.png)
+**User Dashboard**  
+![User Dashboard](image-2.png)
+
+**Login Page**  
+![Login Page](image-3.png)
+
+**Dashboard**  
+![Dashboard](image-4.png)
 
 ## Instructions for Customization
 
-1. **Update the Repository URL**: Replace `https://github.com/yourusername/react-authentication-advanced-css.git` with your actual GitHub repository link.
-2. **Screenshots**: Replace the placeholders (`image.png`, `image-1.png`) with relevant screenshots of your application to visually showcase its features.
+1. **Update the Repository URL**: Replace `https://github.com/Jay-Dalsaniya/auth-protected-routes.git` with your actual GitHub repository link.
+2. **Screenshots**: Replace the placeholders (`image-2.png`, `image-3.png`, `image-4.png`) with relevant screenshots of your application to visually showcase its features.
 3. **Customization**: Feel free to modify any section to better reflect your project or its functionality, including adding any additional features you implement in the future.
 
 ---
+
+### Notes:
+
+- Make sure to update the image paths to the actual screenshots you have in your project directory.
+- This version ensures proper formatting, clarity, and organization. Feel free to customize further as needed!
